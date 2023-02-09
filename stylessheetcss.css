@@ -990,7 +990,7 @@ input {
 /**********After home carousel section***************/
 .iconscontainersectionone
 {
-    width:  27%;
+    width:  100%;
 }
 
 
@@ -1121,6 +1121,10 @@ input {
 {
     justify-content: center;
 }
+.imageicons-column
+{
+width: 100%;
+}
 /******************Hamburger Menue Media Query*****/
 .container
 {
@@ -1141,6 +1145,10 @@ display: none;
 
     transform: rotate(45deg);
 
-    transform-origin: left; 
+    transform-origin: left;
+
+
+
+  
 }
 
