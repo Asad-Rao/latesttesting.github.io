@@ -585,7 +585,7 @@ nav {
     border: solid;
     border-color:#feda9f;
     border-width: 1px;
-    width: 60%;
+    width: 76%;
 }
 
 
@@ -1147,5 +1147,6 @@ display: none;
     transform: rotate(45deg);
 
     transform-origin: left;
+
 }
 
