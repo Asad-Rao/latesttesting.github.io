@@ -6,6 +6,7 @@
     margin: 0;
 }
 
+
 button {
     cursor: pointer;
 }
@@ -27,6 +28,12 @@ button {
 }
 
 .section3top {
+    max-width: 1300px;
+    padding: 0 35px;
+    margin: auto;
+}
+.navsection3top
+{
     max-width: 1300px;
     padding: 0 35px;
     margin: auto;
@@ -981,9 +988,12 @@ input {
 @media screen and (max-width: 767px) {
 
     .section3top {
-        padding: 0 40px
+        padding: 0 40px;
     }
-
+    .navsection3top
+    {
+        padding: 0 ;
+    }
 
 /************************NAV MEDIA QUERY**************************************/
 
@@ -997,6 +1007,7 @@ input {
 {
 width: 100%;
 }
+
 .logoimage
 {
     max-width: 157px;
