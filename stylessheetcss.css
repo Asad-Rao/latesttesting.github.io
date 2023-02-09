@@ -311,13 +311,23 @@ nav {
     background-position: center;
 }
 
-.exploreourcollection {
-    font-size: 20px;
-}
+
 
 .textbottlesection {
-    text-align: center;
-
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+text-align: center;
+gap: 1%;
+}
+.textbottleheading
+{
+    width: 50%;
+}
+.exploreourcollection {
+    font-size: 20px;
+    width: 50%;
 
 }
 
