@@ -524,8 +524,8 @@ nav {
     font-family: RanuaTrials-Medium;
     border: none;
     border-radius: 20px;
-    padding-block: 13px;
-    padding-inline: 34px;
+    padding-block: 2.5%;
+    padding-inline: 6%;
     background-color:rgba(253,203,121,255);
     font-size: 12px;
 }
@@ -620,7 +620,7 @@ nav {
     border: solid;
     border-color: #feda9f;
     border-width: 1px;
-    width: 60%;
+    width: 65%;
 }
 
 
