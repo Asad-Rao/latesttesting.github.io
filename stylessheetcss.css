@@ -11,7 +11,7 @@ button {
 }
 
 .saleoff {
-    background-image: url("images/get10%offbackground.png");
+    background-image: url("images/bluepattisales.png");
     background-size: 100% 100%;
     background-repeat: no-repeat no-repeat;
     color: rgb(111, 111, 111);
@@ -558,15 +558,17 @@ nav {
 
     font-family: RanuaTrials-Medium;
     color: rgb(58, 58, 58);
+    margin: 4% auto;
 }
 
 .headingaccordiansection {
-    padding-block: 50px;
+
     text-align: center;
 }
 .accordianwholecontainer
 {
     width: 100%;
+    padding-block: 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
