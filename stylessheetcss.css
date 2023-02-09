@@ -816,7 +816,7 @@ input {
 }
 .greycolor
 {
-    padding: 12px;
+    padding: 10px;
 }
 
 .sectionsevenheading {
@@ -929,7 +929,7 @@ input {
 
 .sectioneighttext {
     font-size: 12px;
-    margin-block: 6%;
+    margin-block-start: 6%;
     color: rgb(58, 58, 58);
 }
 
@@ -1212,5 +1212,8 @@ input {
     transform: rotate(45deg);
 
     transform-origin: left;
+
+
+
 
 }
