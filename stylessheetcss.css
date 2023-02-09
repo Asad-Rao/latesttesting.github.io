@@ -144,6 +144,20 @@ nav {
     padding-block: 100px;
 }
 
+
+/* .heyU
+{
+    display: flex;
+
+}
+.Udiv
+{
+    width: 9%;
+}
+.Uimage
+{
+    width: 100%;
+} */
 .homecarousel1col1 {
     width: 50%;
 }
@@ -636,8 +650,8 @@ nav {
 .accordion:after {
     content: '\002B';
     color: #fecb7a;
-    padding-left: 20px;
     float: right;
+    font-size: 22px;
 
 }
 
