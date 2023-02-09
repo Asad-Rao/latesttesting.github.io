@@ -1112,9 +1112,17 @@ input
 
     /****************************************************/
 
-    /*******************MEDIA QUERY FOR SECTION SIX***************************/
+    /*******************MEDIA QUERY FOR SECTION THREE***************************/
 
-
+    .textbottleheading
+    {
+        width: 100%;
+    }
+    .exploreourcollection {
+        
+        width: 100%;
+    
+    }
 
 
     /***********************Section five media query*****/
