@@ -978,16 +978,13 @@ input {
 
 
 
-    .bottlecolumn {
-        width: 100%;
-    }
+
 
 
 /************************MEDIA QUERY FOR HOME CAROUSEL*****/
-.carouselulimagesiconrow
+.sectiononeiconcolhome
 {
-    display: flex;
-    justify-content: center;
+width: 100%;
 }
 
 /**********************************************************/
@@ -1147,6 +1144,6 @@ display: none;
 
     transform: rotate(45deg);
 
-    transform-origin: left;
+    transform-origin: left;  
 }
 
