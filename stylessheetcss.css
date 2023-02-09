@@ -641,6 +641,7 @@ color: #3a3a3a;
     padding-bottom: 20px;
     color:#3a3a3a;
     font-size: 13px;
+    font-family: RanuaTrials-Light;
 
 }
 
@@ -1146,9 +1147,5 @@ display: none;
     transform: rotate(45deg);
 
     transform-origin: left;
-
-
-
-  
 }
 
