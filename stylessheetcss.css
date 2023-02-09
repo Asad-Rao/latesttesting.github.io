@@ -454,6 +454,7 @@ nav {
     padding-block: 60px;
     justify-content: right;
     flex-wrap: wrap;
+    width: 100%;
 
 }
 
@@ -471,6 +472,7 @@ nav {
     font-family: RanuaTrials-Medium;
     font-size: 20px;
     padding-block: 9px;
+    width: 100%;
 }
 
 .sectionfiveicons {
@@ -1024,7 +1026,10 @@ input {
         width: 100%;
     }
 
-
+.sectionsevenrow
+{
+    column-gap: 20px;
+}
 
 
     /****************Accordian Container**************/
@@ -1081,16 +1086,9 @@ input {
         margin-block-end: 2%;
     }
     /****************green globe section***********/
-    .cleaningpottlecol1
-    {
-    width: 100%;
-    text-align: center;    
-    }  
 
-.sectionfiveiconandtext
-{
-    justify-content: center;
-}
+
+
 
 
 /*********************Section six Media Query ********/
@@ -1147,5 +1145,8 @@ display: none;
 
     transform-origin: left;
 
+
+
+  
 }
 
