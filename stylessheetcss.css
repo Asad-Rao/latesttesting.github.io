@@ -739,7 +739,15 @@ nav {
     width: 20%;
 
 }
-
+.footerdivlogo
+{
+    width:79%;
+}
+.footerlogo
+{
+    width: 100%;
+    display: block;
+}
 .iconfaceinastacopyright {
     display: flex;
     flex-direction: column;
@@ -752,6 +760,7 @@ nav {
     justify-content: space-between;
     width: 40%;
 }
+
 
 .instacontainer,
 .facebookcontainer {
@@ -1167,6 +1176,10 @@ input
     input {
         width: 30%;
         
+    }
+    form
+    {
+justify-content: center;
     }
 
 
