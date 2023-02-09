@@ -93,7 +93,7 @@ nav {
 }
 
 .nav-icon-image {
-    width: 70%;
+    width: 100%;
     display: block;
 }
 
@@ -585,7 +585,7 @@ nav {
     border: solid;
     border-color:#feda9f;
     border-width: 1px;
-    width: 76%;
+    width: 60%;
 }
 
 
@@ -977,7 +977,11 @@ input {
     }
 
 
-
+/************************NAV MEDIA QUERY**************************************/
+.navlogo
+{
+    width: 36%;
+}
 
 
 
@@ -1054,7 +1058,12 @@ width: 100%;
         padding-inline: 40px;
     }
 
-
+/*****************************Bottle section*******************************/
+.bottlecolumn
+{
+    width: 100%;
+}
+/**************************************************************************/
 
 
 
@@ -1130,11 +1139,17 @@ width: 100%;
 .container
 {
     display: block;
+
 }
     .nav-ul
     {
 display: none;
     }
+    .nav-icon
+    {
+        width: 4%;
+    }
+    
 }
 
 
@@ -1148,5 +1163,8 @@ display: none;
 
     transform-origin: left;
 
+
+
+  
 }
 
