@@ -524,8 +524,8 @@ nav {
     font-family: RanuaTrials-Medium;
     border: none;
     border-radius: 20px;
-    padding-block: 2.5%;
-    padding-inline: 6%;
+    padding-block: 13px;
+    padding-inline: 34px;
     background-color:rgba(253,203,121,255);
     font-size: 12px;
 }
@@ -1169,6 +1169,8 @@ input
     width: 100%;
 }
 /**************************************************************************/
+
+
 
 
 
