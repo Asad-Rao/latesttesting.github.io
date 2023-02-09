@@ -7,6 +7,8 @@
 }
 
 
+
+
 button {
     cursor: pointer;
 }
@@ -377,7 +379,7 @@ nav {
     border-radius: 20px;
     padding-block: 10px;
     padding-inline: 24px;
-    background-color: rgb(254, 203, 122);
+    background-color: rgba(253,203,121,255);
     font-size: 12px;
 }
 
@@ -510,7 +512,7 @@ nav {
     border-radius: 20px;
     padding-block: 13px;
     padding-inline: 34px;
-    background-color: rgb(254, 203, 122);
+    background-color:rgba(253,203,121,255);
     font-size: 12px;
 }
 
@@ -551,7 +553,7 @@ nav {
     border-radius: 20px;
     padding-block: 12px;
     padding-inline: 24px;
-    background-color: rgb(254, 203, 122);
+    background-color: rgba(253,203,121,255);
     font-size: 12px;
 }
 
@@ -803,6 +805,15 @@ input {
     width: 83%;
 
 }
+form
+{
+display: flex;
+flex-direction: row;
+}
+input
+{
+    border-style: none;
+}
 
 
 
@@ -984,8 +995,20 @@ input {
 }
 
 .orangearrow {
-    background-color: rgb(254, 203, 122);
+    background-color:rgba(253,203,121,255);
+    color: white;
+    padding-inline: 15px;
+    border-color:rgba(253,203,121,255) ;
+    border-style: solid;
 }
+.button:focus {
+    outline: none;
+  }
+.orangearrow span
+{
+    font-size: 15px;
+}
+
 
 .inputplacehodertext::placeholder {
     font-family: RanuaTrials-Regular;
@@ -1143,6 +1166,7 @@ input {
 
     input {
         width: 30%;
+        
     }
 
 
@@ -1217,4 +1241,8 @@ input {
     transform: rotate(45deg);
 
     transform-origin: left;
+
+
+
+
 }
