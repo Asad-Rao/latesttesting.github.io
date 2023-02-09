@@ -571,6 +571,7 @@ nav {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 1%;
 }
 
 .accordiontextanchorlink {
@@ -582,7 +583,7 @@ nav {
     border: solid;
     border-color:#feda9f;
     border-width: 1px;
-    width: 60%;
+    width: 50%;
 }
 
 
