@@ -282,8 +282,7 @@ nav {
 
 .textbottlesection {
     text-align: center;
-    width: 50%;
-    margin: 0 auto;
+
 
 }
 
@@ -565,17 +564,25 @@ nav {
     padding-block: 50px;
     text-align: center;
 }
+.accordianwholecontainer
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .accordiontextanchorlink {
     color: rgb(11, 150, 204);
 }
 
 .accordioncontainer {
-    margin: auto;
-    width: 70%;
+
     border: solid;
-    border-color: #fcd4ab;
+    border-color:#feda9f;
     border-width: 1px;
+    width: 60%;
 }
 
 
@@ -597,14 +604,14 @@ nav {
 
 .active,
 .accordion:hover {
-    background-color: rgb(250, 246, 239);
-
+    background-color: #fff8ec;
+color: #3a3a3a;
 
 }
 
 .accordion:after {
     content: '\002B';
-    color: rgb(253 165 1);
+    color:#fecb7a;
     padding-left: 20px;
     float: right;
 
@@ -629,6 +636,7 @@ nav {
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    color:#3a3a3a;
 
 }
 
@@ -805,7 +813,7 @@ input {
 }
 
 .userimagecontainer {
-    background-color: rgb(200, 200, 200);
+    background-color:#dddddf;
 
     margin: auto;
     max-width: 36px;
@@ -963,18 +971,9 @@ input {
         padding: 0 40px
     }
 
-    .homecarousel1row {
-        justify-content: center;
-        text-align: center;
-    }
 
-    .orangecylinder {
-        margin: auto
-    }
 
-    .homecarousel1col1 {
-        width: 100%;
-    }
+
 
     .bottlecolumn {
         width: 100%;
